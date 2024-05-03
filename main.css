@@ -1,0 +1,65 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+
+.navbar{
+    background-color: #fff;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #e15f41;
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-Produtos .nav-link.active:hover{
+    color: #e15f41;
+}
+
+.navbar-toggler{
+    background-color: #e15f41;
+}
+
+.section-title{
+    font-family: Pacifico,cursive;
+}
+
+#sobre-a-empresa, #produtos{
+    background-color:#ffeae6 ;
+}
+
+.text-colored{
+    color: #e15f41;
+}
+
+.nav-Produtos .nav-link.active,
+#fale-conosco button{
+    background-color: #e15f41;
+    color: #fff;
+}
+.nav-Produtos .nav-link:hover{
+    color: #e15f41;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+@media(max-width:767px) {
+    .carousel-item img{
+        height: 200px;
+    }
+    .logo img{
+        width: 800px;
+    }
+}
+
+.logo{
+    width: 250px;
+
+}
